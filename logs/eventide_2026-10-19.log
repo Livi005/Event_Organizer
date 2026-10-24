@@ -1,0 +1,597 @@
+{"time": "2026-10-19 15:52:28.723", "level": "DEBUG", "module": "agents.test_agente", "function": "__init__", "line": 105, "message": "Agente 'test_agente' registrado"}
+{"time": "2026-10-19 15:52:28.723", "level": "DEBUG", "module": "agents.test_lifecycle", "function": "__init__", "line": 105, "message": "Agente 'test_lifecycle' registrado"}
+{"time": "2026-10-19 15:52:28.723", "level": "DEBUG", "module": "agents.test_lifecycle", "function": "_loop", "line": 190, "message": "Agente 'test_lifecycle' entrando en loop"}
+{"time": "2026-10-19 15:52:28.723", "level": "INFO", "module": "agents.test_lifecycle", "function": "start", "line": 123, "message": "🚀 Agente 'test_lifecycle' arrancado"}
+{"time": "2026-10-19 15:52:29.229", "level": "DEBUG", "module": "agents.test_lifecycle", "function": "_loop", "line": 223, "message": "Agente 'test_lifecycle' saliendo del loop"}
+{"time": "2026-10-19 15:52:29.234", "level": "INFO", "module": "agents.test_lifecycle", "function": "stop", "line": 134, "message": "🛑 Agente 'test_lifecycle' detenido"}
+{"time": "2026-10-19 15:52:29.234", "level": "DEBUG", "module": "agents.receptor", "function": "__init__", "line": 105, "message": "Agente 'receptor' registrado"}
+{"time": "2026-10-19 15:52:29.234", "level": "DEBUG", "module": "agents.receptor", "function": "_loop", "line": 190, "message": "Agente 'receptor' entrando en loop"}
+{"time": "2026-10-19 15:52:29.234", "level": "INFO", "module": "agents.receptor", "function": "start", "line": 123, "message": "🚀 Agente 'receptor' arrancado"}
+{"time": "2026-10-19 15:52:29.812", "level": "DEBUG", "module": "agents.receptor", "function": "_loop", "line": 223, "message": "Agente 'receptor' saliendo del loop"}
+{"time": "2026-10-19 15:52:29.812", "level": "INFO", "module": "agents.receptor", "function": "stop", "line": 134, "message": "🛑 Agente 'receptor' detenido"}
+{"time": "2026-10-19 15:52:29.812", "level": "DEBUG", "module": "agents.receptor_2", "function": "__init__", "line": 105, "message": "Agente 'receptor_2' registrado"}
+{"time": "2026-10-19 15:52:29.812", "level": "DEBUG", "module": "agents.emisor_2", "function": "__init__", "line": 105, "message": "Agente 'emisor_2' registrado"}
+{"time": "2026-10-19 15:52:29.812", "level": "DEBUG", "module": "agents.receptor_2", "function": "_loop", "line": 190, "message": "Agente 'receptor_2' entrando en loop"}
+{"time": "2026-10-19 15:52:29.812", "level": "INFO", "module": "agents.receptor_2", "function": "start", "line": 123, "message": "🚀 Agente 'receptor_2' arrancado"}
+{"time": "2026-10-19 15:52:29.872", "level": "DEBUG", "module": "agents.emisor_2", "function": "enviar", "line": 176, "message": "→ receptor_2: saludo"}
+{"time": "2026-10-19 15:52:30.375", "level": "DEBUG", "module": "agents.receptor_2", "function": "_loop", "line": 223, "message": "Agente 'receptor_2' saliendo del loop"}
+{"time": "2026-10-19 15:52:30.375", "level": "INFO", "module": "agents.receptor_2", "function": "stop", "line": 134, "message": "🛑 Agente 'receptor_2' detenido"}
+{"time": "2026-10-19 15:52:30.375", "level": "DEBUG", "module": "agents.emisor_3", "function": "__init__", "line": 105, "message": "Agente 'emisor_3' registrado"}
+{"time": "2026-10-19 15:52:30.375", "level": "WARNING", "module": "agents.emisor_3", "function": "enviar", "line": 163, "message": "Receptor 'fantasma' no encontrado. Disponibles: ['emisor_3']"}
+{"time": "2026-10-19 15:52:30.375", "level": "DEBUG", "module": "agents.eco", "function": "__init__", "line": 105, "message": "Agente 'eco' registrado"}
+{"time": "2026-10-19 15:52:30.375", "level": "DEBUG", "module": "agents.cliente", "function": "__init__", "line": 105, "message": "Agente 'cliente' registrado"}
+{"time": "2026-10-19 15:52:30.375", "level": "DEBUG", "module": "agents.eco", "function": "_loop", "line": 190, "message": "Agente 'eco' entrando en loop"}
+{"time": "2026-10-19 15:52:30.375", "level": "INFO", "module": "agents.eco", "function": "start", "line": 123, "message": "🚀 Agente 'eco' arrancado"}
+{"time": "2026-10-19 15:52:30.375", "level": "DEBUG", "module": "agents.cliente", "function": "_loop", "line": 190, "message": "Agente 'cliente' entrando en loop"}
+{"time": "2026-10-19 15:52:30.375", "level": "INFO", "module": "agents.cliente", "function": "start", "line": 123, "message": "🚀 Agente 'cliente' arrancado"}
+{"time": "2026-10-19 15:52:30.439", "level": "DEBUG", "module": "agents.cliente", "function": "enviar", "line": 176, "message": "→ eco: ping"}
+{"time": "2026-10-19 15:52:30.439", "level": "DEBUG", "module": "agents.eco", "function": "enviar", "line": 176, "message": "→ cliente: pong"}
+{"time": "2026-10-19 15:52:30.948", "level": "DEBUG", "module": "agents.eco", "function": "_loop", "line": 223, "message": "Agente 'eco' saliendo del loop"}
+{"time": "2026-10-19 15:52:30.948", "level": "INFO", "module": "agents.eco", "function": "stop", "line": 134, "message": "🛑 Agente 'eco' detenido"}
+{"time": "2026-10-19 15:52:31.451", "level": "DEBUG", "module": "agents.cliente", "function": "_loop", "line": 223, "message": "Agente 'cliente' saliendo del loop"}
+{"time": "2026-10-19 15:52:31.451", "level": "INFO", "module": "agents.cliente", "function": "stop", "line": 134, "message": "🛑 Agente 'cliente' detenido"}
+{"time": "2026-10-19 15:52:31.451", "level": "DEBUG", "module": "agents.stat_agente", "function": "__init__", "line": 105, "message": "Agente 'stat_agente' registrado"}
+{"time": "2026-10-19 15:52:31.451", "level": "DEBUG", "module": "agents.stat_agente", "function": "_loop", "line": 190, "message": "Agente 'stat_agente' entrando en loop"}
+{"time": "2026-10-19 15:52:31.451", "level": "INFO", "module": "agents.stat_agente", "function": "start", "line": 123, "message": "🚀 Agente 'stat_agente' arrancado"}
+{"time": "2026-10-19 15:52:31.511", "level": "DEBUG", "module": "agents.stat_agente", "function": "enviar", "line": 176, "message": "→ stat_agente: test"}
+{"time": "2026-10-19 15:52:32.022", "level": "DEBUG", "module": "agents.stat_agente", "function": "_loop", "line": 223, "message": "Agente 'stat_agente' saliendo del loop"}
+{"time": "2026-10-19 15:52:32.022", "level": "INFO", "module": "agents.stat_agente", "function": "stop", "line": 134, "message": "🛑 Agente 'stat_agente' detenido"}
+{"time": "2026-10-19 15:52:32.022", "level": "DEBUG", "module": "agents.stop_idem", "function": "__init__", "line": 105, "message": "Agente 'stop_idem' registrado"}
+{"time": "2026-10-19 15:52:32.022", "level": "DEBUG", "module": "agents.stop_idem", "function": "_loop", "line": 190, "message": "Agente 'stop_idem' entrando en loop"}
+{"time": "2026-10-19 15:52:32.022", "level": "INFO", "module": "agents.stop_idem", "function": "start", "line": 123, "message": "🚀 Agente 'stop_idem' arrancado"}
+{"time": "2026-10-19 15:52:32.539", "level": "DEBUG", "module": "agents.stop_idem", "function": "_loop", "line": 223, "message": "Agente 'stop_idem' saliendo del loop"}
+{"time": "2026-10-19 15:52:32.539", "level": "INFO", "module": "agents.stop_idem", "function": "stop", "line": 134, "message": "🛑 Agente 'stop_idem' detenido"}
+{"time": "2026-10-19 15:52:32.539", "level": "INFO", "module": "agents.stop_idem", "function": "stop", "line": 134, "message": "🛑 Agente 'stop_idem' detenido"}
+{"time": "2026-10-19 15:52:32.539", "level": "DEBUG", "module": "agents.start_idem", "function": "__init__", "line": 105, "message": "Agente 'start_idem' registrado"}
+{"time": "2026-10-19 15:52:32.539", "level": "DEBUG", "module": "agents.start_idem", "function": "_loop", "line": 190, "message": "Agente 'start_idem' entrando en loop"}
+{"time": "2026-10-19 15:52:32.539", "level": "INFO", "module": "agents.start_idem", "function": "start", "line": 123, "message": "🚀 Agente 'start_idem' arrancado"}
+{"time": "2026-10-19 15:52:32.555", "level": "WARNING", "module": "agents.start_idem", "function": "start", "line": 113, "message": "Agente 'start_idem' ya está corriendo"}
+{"time": "2026-10-19 15:52:33.056", "level": "DEBUG", "module": "agents.start_idem", "function": "_loop", "line": 223, "message": "Agente 'start_idem' saliendo del loop"}
+{"time": "2026-10-19 15:52:33.056", "level": "INFO", "module": "agents.start_idem", "function": "stop", "line": 134, "message": "🛑 Agente 'start_idem' detenido"}
+{"time": "2026-10-19 15:52:33.056", "level": "DEBUG", "module": "agents.fallon", "function": "__init__", "line": 105, "message": "Agente 'fallon' registrado"}
+{"time": "2026-10-19 15:52:33.056", "level": "DEBUG", "module": "agents.fallon", "function": "_loop", "line": 190, "message": "Agente 'fallon' entrando en loop"}
+{"time": "2026-10-19 15:52:33.056", "level": "INFO", "module": "agents.fallon", "function": "start", "line": 123, "message": "🚀 Agente 'fallon' arrancado"}
+{"time": "2026-10-19 15:52:33.117", "level": "DEBUG", "module": "agents.fallon", "function": "enviar", "line": 176, "message": "→ fallon: boom"}
+{"time": "2026-10-19 15:52:33.117", "level": "ERROR", "module": "agents.fallon", "function": "_loop", "line": 212, "message": "Error manejando boom: error simulado"}
+{"time": "2026-10-19 15:52:33.318", "level": "DEBUG", "module": "agents.fallon", "function": "enviar", "line": 176, "message": "→ fallon: ok"}
+{"time": "2026-10-19 15:52:33.826", "level": "DEBUG", "module": "agents.fallon", "function": "_loop", "line": 223, "message": "Agente 'fallon' saliendo del loop"}
+{"time": "2026-10-19 15:52:33.826", "level": "INFO", "module": "agents.fallon", "function": "stop", "line": 134, "message": "🛑 Agente 'fallon' detenido"}
+{"time": "2026-10-19 15:52:33.826", "level": "DEBUG", "module": "agents.buscador", "function": "__init__", "line": 105, "message": "Agente 'buscador' registrado"}
+{"time": "2026-10-19 15:52:33.826", "level": "DEBUG", "module": "agents.buscador", "function": "_loop", "line": 190, "message": "Agente 'buscador' entrando en loop"}
+{"time": "2026-10-19 15:52:33.826", "level": "INFO", "module": "agents.buscador", "function": "_setup_impl", "line": 47, "message": "Inicializando motor de busqueda..."}
+{"time": "2026-10-19 15:52:33.826", "level": "INFO", "module": "agents.buscador", "function": "start", "line": 123, "message": "🚀 Agente 'buscador' arrancado"}
+{"time": "2026-10-19 15:52:33.826", "level": "WARNING", "module": "agents.buscador", "function": "_setup_impl", "line": 58, "message": "No hay embeddings en disco. Buscando alternativa..."}
+{"time": "2026-10-19 15:52:33.826", "level": "WARNING", "module": "agents.buscador", "function": "_setup_impl", "line": 78, "message": "Generando datos sinteticos de arranque..."}
+{"time": "2026-10-19 15:52:33.840", "level": "INFO", "module": "eventide.core.embedding", "function": "__init__", "line": 98, "message": "Cargando modelo de embeddings: paraphrase-multilingual-mpnet-base-v2"}
+{"time": "2026-10-19 15:52:42.271", "level": "INFO", "module": "eventide.core.embedding", "function": "__init__", "line": 114, "message": "EventEmbedder inicializado correctamente"}
+{"time": "2026-10-19 15:52:42.271", "level": "INFO", "module": "eventide.core.embedding", "function": "generate_embeddings", "line": 207, "message": "Generando embeddings para 50 eventos..."}
+{"time": "2026-10-19 15:52:49.284", "level": "INFO", "module": "eventide.core.embedding", "function": "generate_embeddings", "line": 220, "message": "Embeddings generados. Shape: (50, 768)"}
+{"time": "2026-10-19 15:52:49.285", "level": "INFO", "module": "eventide.core.embedding", "function": "build_index", "line": 239, "message": "Construyendo índice FAISS (flat, dim=768)..."}
+{"time": "2026-10-19 15:52:49.286", "level": "INFO", "module": "eventide.core.embedding", "function": "build_index", "line": 254, "message": "Índice construido. Total vectores: 50"}
+{"time": "2026-10-19 15:52:49.286", "level": "INFO", "module": "eventide.core.embedding", "function": "build_shards", "line": 267, "message": "Construyendo shards por ciudad..."}
+{"time": "2026-10-19 15:52:49.288", "level": "INFO", "module": "eventide.core.embedding", "function": "build_shards", "line": 285, "message": "Shards construidos: 23 ciudades, tamaños: [3, 2, 4, 1, 3, 1, 4, 4, 2, 2, 1, 3, 3, 2, 1, 3, 3, 2, 1, 2, 1, 1, 1]"}
+{"time": "2026-10-19 15:52:49.288", "level": "INFO", "module": "agents.buscador", "function": "_setup_impl", "line": 87, "message": "Embedder listo con 50 eventos sinteticos"}
+{"time": "2026-10-19 15:52:49.417", "level": "INFO", "module": "agents.buscador", "function": "_construir_corrector", "line": 106, "message": "Corrector ortografico listo. Vocabulario: 105 palabras"}
+{"time": "2026-10-19 15:52:49.977", "level": "DEBUG", "module": "agents.cliente_1792439569977853500", "function": "__init__", "line": 105, "message": "Agente 'cliente_1792439569977853500' registrado"}
+{"time": "2026-10-19 15:52:49.977", "level": "DEBUG", "module": "agents.cliente_1792439569977853500", "function": "_loop", "line": 190, "message": "Agente 'cliente_1792439569977853500' entrando en loop"}
+{"time": "2026-10-19 15:52:49.977", "level": "INFO", "module": "agents.cliente_1792439569977853500", "function": "start", "line": 123, "message": "🚀 Agente 'cliente_1792439569977853500' arrancado"}
+{"time": "2026-10-19 15:52:50.181", "level": "DEBUG", "module": "agents.buscador", "function": "enviar", "line": 176, "message": "→ buscador: buscar"}
+{"time": "2026-10-19 15:52:50.181", "level": "INFO", "module": "agents.buscador", "function": "_handle_buscar", "line": 167, "message": "Buscando: query='concierto' ciudad=None categoria=None k=5"}
+{"time": "2026-10-19 15:52:50.233", "level": "INFO", "module": "agents.buscador", "function": "_handle_buscar", "line": 224, "message": "Encontrados 5 resultados"}
+{"time": "2026-10-19 15:52:50.233", "level": "DEBUG", "module": "agents.buscador", "function": "enviar", "line": 176, "message": "→ cliente_1792439569977853500: resultados_busqueda"}
+{"time": "2026-10-19 15:52:50.753", "level": "DEBUG", "module": "agents.cliente_1792439569977853500", "function": "_loop", "line": 223, "message": "Agente 'cliente_1792439569977853500' saliendo del loop"}
+{"time": "2026-10-19 15:52:50.754", "level": "INFO", "module": "agents.cliente_1792439569977853500", "function": "stop", "line": 134, "message": "🛑 Agente 'cliente_1792439569977853500' detenido"}
+{"time": "2026-10-19 15:52:50.761", "level": "DEBUG", "module": "agents.cliente_1792439570761191900", "function": "__init__", "line": 105, "message": "Agente 'cliente_1792439570761191900' registrado"}
+{"time": "2026-10-19 15:52:50.761", "level": "DEBUG", "module": "agents.cliente_1792439570761191900", "function": "_loop", "line": 190, "message": "Agente 'cliente_1792439570761191900' entrando en loop"}
+{"time": "2026-10-19 15:52:50.761", "level": "INFO", "module": "agents.cliente_1792439570761191900", "function": "start", "line": 123, "message": "🚀 Agente 'cliente_1792439570761191900' arrancado"}
+{"time": "2026-10-19 15:52:50.966", "level": "DEBUG", "module": "agents.buscador", "function": "enviar", "line": 176, "message": "→ buscador: buscar"}
+{"time": "2026-10-19 15:52:50.967", "level": "INFO", "module": "agents.buscador", "function": "_handle_buscar", "line": 167, "message": "Buscando: query='evento' ciudad=Madrid categoria=None k=10"}
+{"time": "2026-10-19 15:52:51.026", "level": "INFO", "module": "agents.buscador", "function": "_handle_buscar", "line": 187, "message": "Pocos resultados (0), probando variantes..."}
+{"time": "2026-10-19 15:52:51.027", "level": "INFO", "module": "agents.buscador", "function": "_handle_buscar", "line": 224, "message": "Encontrados 0 resultados"}
+{"time": "2026-10-19 15:52:51.027", "level": "DEBUG", "module": "agents.buscador", "function": "enviar", "line": 176, "message": "→ cliente_1792439570761191900: resultados_busqueda"}
+{"time": "2026-10-19 15:52:51.530", "level": "DEBUG", "module": "agents.cliente_1792439570761191900", "function": "_loop", "line": 223, "message": "Agente 'cliente_1792439570761191900' saliendo del loop"}
+{"time": "2026-10-19 15:52:51.530", "level": "INFO", "module": "agents.cliente_1792439570761191900", "function": "stop", "line": 134, "message": "🛑 Agente 'cliente_1792439570761191900' detenido"}
+{"time": "2026-10-19 15:52:51.535", "level": "DEBUG", "module": "agents.cliente_1792439571535469500", "function": "__init__", "line": 105, "message": "Agente 'cliente_1792439571535469500' registrado"}
+{"time": "2026-10-19 15:52:51.537", "level": "DEBUG", "module": "agents.cliente_1792439571535469500", "function": "_loop", "line": 190, "message": "Agente 'cliente_1792439571535469500' entrando en loop"}
+{"time": "2026-10-19 15:52:51.537", "level": "INFO", "module": "agents.cliente_1792439571535469500", "function": "start", "line": 123, "message": "🚀 Agente 'cliente_1792439571535469500' arrancado"}
+{"time": "2026-10-19 15:52:51.740", "level": "DEBUG", "module": "agents.buscador", "function": "enviar", "line": 176, "message": "→ buscador: buscar"}
+{"time": "2026-10-19 15:52:51.740", "level": "DEBUG", "module": "agents.buscador", "function": "enviar", "line": 176, "message": "→ cliente_1792439571535469500: resultados_busqueda"}
+{"time": "2026-10-19 15:52:52.246", "level": "DEBUG", "module": "agents.cliente_1792439571535469500", "function": "_loop", "line": 223, "message": "Agente 'cliente_1792439571535469500' saliendo del loop"}
+{"time": "2026-10-19 15:52:52.247", "level": "INFO", "module": "agents.cliente_1792439571535469500", "function": "stop", "line": 134, "message": "🛑 Agente 'cliente_1792439571535469500' detenido"}
+{"time": "2026-10-19 15:52:52.249", "level": "DEBUG", "module": "agents.buscador", "function": "enviar", "line": 176, "message": "→ buscador: buscar"}
+{"time": "2026-10-19 15:52:52.249", "level": "INFO", "module": "agents.buscador", "function": "_handle_buscar", "line": 160, "message": "Query corregida: 'test' -> 'testa'"}
+{"time": "2026-10-19 15:52:52.249", "level": "INFO", "module": "agents.buscador", "function": "_handle_buscar", "line": 167, "message": "Buscando: query='testa' ciudad=None categoria=None k=60"}
+{"time": "2026-10-19 15:52:52.330", "level": "INFO", "module": "agents.buscador", "function": "_handle_buscar", "line": 224, "message": "Encontrados 50 resultados"}
+{"time": "2026-10-19 15:52:52.330", "level": "WARNING", "module": "agents.buscador", "function": "_responder", "line": 372, "message": "Sin respuesta_a, no puedo responder resultados_busqueda"}
+{"time": "2026-10-19 15:52:52.752", "level": "DEBUG", "module": "agents.cliente_1792439572752475600", "function": "__init__", "line": 105, "message": "Agente 'cliente_1792439572752475600' registrado"}
+{"time": "2026-10-19 15:52:52.752", "level": "DEBUG", "module": "agents.cliente_1792439572752475600", "function": "_loop", "line": 190, "message": "Agente 'cliente_1792439572752475600' entrando en loop"}
+{"time": "2026-10-19 15:52:52.752", "level": "INFO", "module": "agents.cliente_1792439572752475600", "function": "start", "line": 123, "message": "🚀 Agente 'cliente_1792439572752475600' arrancado"}
+{"time": "2026-10-19 15:52:52.958", "level": "DEBUG", "module": "agents.buscador", "function": "enviar", "line": 176, "message": "→ buscador: stats"}
+{"time": "2026-10-19 15:52:52.958", "level": "DEBUG", "module": "agents.buscador", "function": "enviar", "line": 176, "message": "→ cliente_1792439572752475600: stats_buscador"}
+{"time": "2026-10-19 15:52:53.469", "level": "DEBUG", "module": "agents.cliente_1792439572752475600", "function": "_loop", "line": 223, "message": "Agente 'cliente_1792439572752475600' saliendo del loop"}
+{"time": "2026-10-19 15:52:53.469", "level": "INFO", "module": "agents.cliente_1792439572752475600", "function": "stop", "line": 134, "message": "🛑 Agente 'cliente_1792439572752475600' detenido"}
+{"time": "2026-10-19 15:52:53.469", "level": "DEBUG", "module": "agents.buscador", "function": "enviar", "line": 176, "message": "→ buscador: tipo_raro"}
+{"time": "2026-10-19 15:52:53.469", "level": "DEBUG", "module": "agents.buscador", "function": "manejar_mensaje", "line": 130, "message": "Tipo no soportado: tipo_raro"}
+{"time": "2026-10-19 15:52:53.996", "level": "DEBUG", "module": "agents.buscador", "function": "_loop", "line": 223, "message": "Agente 'buscador' saliendo del loop"}
+{"time": "2026-10-19 15:52:53.996", "level": "INFO", "module": "agents.buscador", "function": "stop", "line": 134, "message": "🛑 Agente 'buscador' detenido"}
+{"time": "2026-10-19 15:52:53.997", "level": "DEBUG", "module": "agents.narrador", "function": "__init__", "line": 105, "message": "Agente 'narrador' registrado"}
+{"time": "2026-10-19 15:52:53.997", "level": "DEBUG", "module": "agents.narrador", "function": "_loop", "line": 190, "message": "Agente 'narrador' entrando en loop"}
+{"time": "2026-10-19 15:52:53.997", "level": "INFO", "module": "agents.narrador", "function": "setup", "line": 177, "message": "Narrador en modo fallback (LLM desactivado)"}
+{"time": "2026-10-19 15:52:53.997", "level": "INFO", "module": "agents.narrador", "function": "start", "line": 123, "message": "🚀 Agente 'narrador' arrancado"}
+{"time": "2026-10-19 15:52:54.206", "level": "DEBUG", "module": "agents.cliente_1792439574206302300", "function": "__init__", "line": 105, "message": "Agente 'cliente_1792439574206302300' registrado"}
+{"time": "2026-10-19 15:52:54.206", "level": "DEBUG", "module": "agents.cliente_1792439574206302300", "function": "_loop", "line": 190, "message": "Agente 'cliente_1792439574206302300' entrando en loop"}
+{"time": "2026-10-19 15:52:54.206", "level": "INFO", "module": "agents.cliente_1792439574206302300", "function": "start", "line": 123, "message": "🚀 Agente 'cliente_1792439574206302300' arrancado"}
+{"time": "2026-10-19 15:52:54.313", "level": "DEBUG", "module": "agents.narrador", "function": "enviar", "line": 176, "message": "→ narrador: narrar"}
+{"time": "2026-10-19 15:52:54.313", "level": "DEBUG", "module": "agents.narrador", "function": "enviar", "line": 176, "message": "→ cliente_1792439574206302300: narracion_lista"}
+{"time": "2026-10-19 15:52:54.833", "level": "DEBUG", "module": "agents.cliente_1792439574206302300", "function": "_loop", "line": 223, "message": "Agente 'cliente_1792439574206302300' saliendo del loop"}
+{"time": "2026-10-19 15:52:54.833", "level": "INFO", "module": "agents.cliente_1792439574206302300", "function": "stop", "line": 134, "message": "🛑 Agente 'cliente_1792439574206302300' detenido"}
+{"time": "2026-10-19 15:52:54.833", "level": "DEBUG", "module": "agents.cliente_1792439574833455700", "function": "__init__", "line": 105, "message": "Agente 'cliente_1792439574833455700' registrado"}
+{"time": "2026-10-19 15:52:54.833", "level": "DEBUG", "module": "agents.cliente_1792439574833455700", "function": "_loop", "line": 190, "message": "Agente 'cliente_1792439574833455700' entrando en loop"}
+{"time": "2026-10-19 15:52:54.833", "level": "INFO", "module": "agents.cliente_1792439574833455700", "function": "start", "line": 123, "message": "🚀 Agente 'cliente_1792439574833455700' arrancado"}
+{"time": "2026-10-19 15:52:54.940", "level": "DEBUG", "module": "agents.narrador", "function": "enviar", "line": 176, "message": "→ narrador: narrar"}
+{"time": "2026-10-19 15:52:54.944", "level": "INFO", "module": "agents.narrador", "function": "_handle_narrar", "line": 308, "message": "Narracion generada: fuente=fallback, tiempo=0.2ms, chars=852"}
+{"time": "2026-10-19 15:52:54.944", "level": "DEBUG", "module": "agents.narrador", "function": "enviar", "line": 176, "message": "→ cliente_1792439574833455700: narracion_lista"}
+{"time": "2026-10-19 15:52:55.450", "level": "DEBUG", "module": "agents.cliente_1792439574833455700", "function": "_loop", "line": 223, "message": "Agente 'cliente_1792439574833455700' saliendo del loop"}
+{"time": "2026-10-19 15:52:55.450", "level": "INFO", "module": "agents.cliente_1792439574833455700", "function": "stop", "line": 134, "message": "🛑 Agente 'cliente_1792439574833455700' detenido"}
+{"time": "2026-10-19 15:52:55.452", "level": "DEBUG", "module": "agents.cliente_1792439575452925700", "function": "__init__", "line": 105, "message": "Agente 'cliente_1792439575452925700' registrado"}
+{"time": "2026-10-19 15:52:55.452", "level": "DEBUG", "module": "agents.cliente_1792439575452925700", "function": "_loop", "line": 190, "message": "Agente 'cliente_1792439575452925700' entrando en loop"}
+{"time": "2026-10-19 15:52:55.452", "level": "INFO", "module": "agents.cliente_1792439575452925700", "function": "start", "line": 123, "message": "🚀 Agente 'cliente_1792439575452925700' arrancado"}
+{"time": "2026-10-19 15:52:55.559", "level": "DEBUG", "module": "agents.narrador", "function": "enviar", "line": 176, "message": "→ narrador: narrar"}
+{"time": "2026-10-19 15:52:55.559", "level": "DEBUG", "module": "agents.narrador", "function": "enviar", "line": 176, "message": "→ cliente_1792439575452925700: narracion_lista"}
+{"time": "2026-10-19 15:52:56.065", "level": "DEBUG", "module": "agents.cliente_1792439575452925700", "function": "_loop", "line": 223, "message": "Agente 'cliente_1792439575452925700' saliendo del loop"}
+{"time": "2026-10-19 15:52:56.065", "level": "INFO", "module": "agents.cliente_1792439575452925700", "function": "stop", "line": 134, "message": "🛑 Agente 'cliente_1792439575452925700' detenido"}
+{"time": "2026-10-19 15:52:56.065", "level": "DEBUG", "module": "agents.cliente_1792439576065855700", "function": "__init__", "line": 105, "message": "Agente 'cliente_1792439576065855700' registrado"}
+{"time": "2026-10-19 15:52:56.065", "level": "DEBUG", "module": "agents.cliente_1792439576065855700", "function": "_loop", "line": 190, "message": "Agente 'cliente_1792439576065855700' entrando en loop"}
+{"time": "2026-10-19 15:52:56.065", "level": "INFO", "module": "agents.cliente_1792439576065855700", "function": "start", "line": 123, "message": "🚀 Agente 'cliente_1792439576065855700' arrancado"}
+{"time": "2026-10-19 15:52:56.175", "level": "DEBUG", "module": "agents.narrador", "function": "enviar", "line": 176, "message": "→ narrador: narrar"}
+{"time": "2026-10-19 15:52:56.175", "level": "DEBUG", "module": "agents.narrador", "function": "enviar", "line": 176, "message": "→ cliente_1792439576065855700: narracion_lista"}
+{"time": "2026-10-19 15:52:56.681", "level": "DEBUG", "module": "agents.cliente_1792439576065855700", "function": "_loop", "line": 223, "message": "Agente 'cliente_1792439576065855700' saliendo del loop"}
+{"time": "2026-10-19 15:52:56.681", "level": "INFO", "module": "agents.cliente_1792439576065855700", "function": "stop", "line": 134, "message": "🛑 Agente 'cliente_1792439576065855700' detenido"}
+{"time": "2026-10-19 15:52:56.683", "level": "DEBUG", "module": "agents.cliente_1792439576683170600", "function": "__init__", "line": 105, "message": "Agente 'cliente_1792439576683170600' registrado"}
+{"time": "2026-10-19 15:52:56.683", "level": "DEBUG", "module": "agents.cliente_1792439576683170600", "function": "_loop", "line": 190, "message": "Agente 'cliente_1792439576683170600' entrando en loop"}
+{"time": "2026-10-19 15:52:56.683", "level": "INFO", "module": "agents.cliente_1792439576683170600", "function": "start", "line": 123, "message": "🚀 Agente 'cliente_1792439576683170600' arrancado"}
+{"time": "2026-10-19 15:52:56.789", "level": "DEBUG", "module": "agents.narrador", "function": "enviar", "line": 176, "message": "→ narrador: narrar"}
+{"time": "2026-10-19 15:52:56.789", "level": "INFO", "module": "agents.narrador", "function": "_handle_narrar", "line": 308, "message": "Narracion generada: fuente=fallback, tiempo=0.1ms, chars=852"}
+{"time": "2026-10-19 15:52:56.789", "level": "DEBUG", "module": "agents.narrador", "function": "enviar", "line": 176, "message": "→ cliente_1792439576683170600: narracion_lista"}
+{"time": "2026-10-19 15:52:56.842", "level": "DEBUG", "module": "agents.narrador", "function": "enviar", "line": 176, "message": "→ narrador: narrar"}
+{"time": "2026-10-19 15:52:56.842", "level": "DEBUG", "module": "agents.narrador", "function": "enviar", "line": 176, "message": "→ cliente_1792439576683170600: narracion_lista"}
+{"time": "2026-10-19 15:52:57.345", "level": "DEBUG", "module": "agents.cliente_1792439576683170600", "function": "_loop", "line": 223, "message": "Agente 'cliente_1792439576683170600' saliendo del loop"}
+{"time": "2026-10-19 15:52:57.345", "level": "INFO", "module": "agents.cliente_1792439576683170600", "function": "stop", "line": 134, "message": "🛑 Agente 'cliente_1792439576683170600' detenido"}
+{"time": "2026-10-19 15:52:57.345", "level": "DEBUG", "module": "agents.cliente_1792439577345441000", "function": "__init__", "line": 105, "message": "Agente 'cliente_1792439577345441000' registrado"}
+{"time": "2026-10-19 15:52:57.345", "level": "DEBUG", "module": "agents.cliente_1792439577345441000", "function": "_loop", "line": 190, "message": "Agente 'cliente_1792439577345441000' entrando en loop"}
+{"time": "2026-10-19 15:52:57.345", "level": "INFO", "module": "agents.cliente_1792439577345441000", "function": "start", "line": 123, "message": "🚀 Agente 'cliente_1792439577345441000' arrancado"}
+{"time": "2026-10-19 15:52:57.456", "level": "DEBUG", "module": "agents.narrador", "function": "enviar", "line": 176, "message": "→ narrador: narrar"}
+{"time": "2026-10-19 15:52:57.467", "level": "INFO", "module": "agents.narrador", "function": "_handle_narrar", "line": 308, "message": "Narracion generada: fuente=fallback, tiempo=0.2ms, chars=852"}
+{"time": "2026-10-19 15:52:57.467", "level": "DEBUG", "module": "agents.narrador", "function": "enviar", "line": 176, "message": "→ cliente_1792439577345441000: narracion_lista"}
+{"time": "2026-10-19 15:52:57.510", "level": "DEBUG", "module": "agents.narrador", "function": "enviar", "line": 176, "message": "→ narrador: limpiar_cache"}
+{"time": "2026-10-19 15:52:57.510", "level": "DEBUG", "module": "agents.narrador", "function": "enviar", "line": 176, "message": "→ cliente_1792439577345441000: cache_limpiada"}
+{"time": "2026-10-19 15:52:57.561", "level": "DEBUG", "module": "agents.narrador", "function": "enviar", "line": 176, "message": "→ narrador: narrar"}
+{"time": "2026-10-19 15:52:57.567", "level": "INFO", "module": "agents.narrador", "function": "_handle_narrar", "line": 308, "message": "Narracion generada: fuente=fallback, tiempo=0.0ms, chars=852"}
+{"time": "2026-10-19 15:52:57.567", "level": "DEBUG", "module": "agents.narrador", "function": "enviar", "line": 176, "message": "→ cliente_1792439577345441000: narracion_lista"}
+{"time": "2026-10-19 15:52:58.084", "level": "DEBUG", "module": "agents.cliente_1792439577345441000", "function": "_loop", "line": 223, "message": "Agente 'cliente_1792439577345441000' saliendo del loop"}
+{"time": "2026-10-19 15:52:58.084", "level": "INFO", "module": "agents.cliente_1792439577345441000", "function": "stop", "line": 134, "message": "🛑 Agente 'cliente_1792439577345441000' detenido"}
+{"time": "2026-10-19 15:52:58.084", "level": "DEBUG", "module": "agents.cliente_1792439578084430100", "function": "__init__", "line": 105, "message": "Agente 'cliente_1792439578084430100' registrado"}
+{"time": "2026-10-19 15:52:58.084", "level": "DEBUG", "module": "agents.cliente_1792439578084430100", "function": "_loop", "line": 190, "message": "Agente 'cliente_1792439578084430100' entrando en loop"}
+{"time": "2026-10-19 15:52:58.084", "level": "INFO", "module": "agents.cliente_1792439578084430100", "function": "start", "line": 123, "message": "🚀 Agente 'cliente_1792439578084430100' arrancado"}
+{"time": "2026-10-19 15:52:58.195", "level": "DEBUG", "module": "agents.narrador", "function": "enviar", "line": 176, "message": "→ narrador: narrar"}
+{"time": "2026-10-19 15:52:58.195", "level": "INFO", "module": "agents.narrador", "function": "_handle_narrar", "line": 308, "message": "Narracion generada: fuente=fallback, tiempo=0.2ms, chars=852"}
+{"time": "2026-10-19 15:52:58.195", "level": "DEBUG", "module": "agents.narrador", "function": "enviar", "line": 176, "message": "→ cliente_1792439578084430100: narracion_lista"}
+{"time": "2026-10-19 15:52:58.249", "level": "DEBUG", "module": "agents.narrador", "function": "enviar", "line": 176, "message": "→ narrador: stats"}
+{"time": "2026-10-19 15:52:58.249", "level": "DEBUG", "module": "agents.narrador", "function": "enviar", "line": 176, "message": "→ cliente_1792439578084430100: stats_narrador"}
+{"time": "2026-10-19 15:52:58.753", "level": "DEBUG", "module": "agents.cliente_1792439578084430100", "function": "_loop", "line": 223, "message": "Agente 'cliente_1792439578084430100' saliendo del loop"}
+{"time": "2026-10-19 15:52:58.753", "level": "INFO", "module": "agents.cliente_1792439578084430100", "function": "stop", "line": 134, "message": "🛑 Agente 'cliente_1792439578084430100' detenido"}
+{"time": "2026-10-19 15:52:59.256", "level": "DEBUG", "module": "agents.narrador", "function": "_loop", "line": 223, "message": "Agente 'narrador' saliendo del loop"}
+{"time": "2026-10-19 15:52:59.256", "level": "INFO", "module": "agents.narrador", "function": "stop", "line": 134, "message": "🛑 Agente 'narrador' detenido"}
+{"time": "2026-10-19 15:52:59.256", "level": "DEBUG", "module": "agents.optimizador", "function": "__init__", "line": 105, "message": "Agente 'optimizador' registrado"}
+{"time": "2026-10-19 15:52:59.256", "level": "DEBUG", "module": "agents.optimizador", "function": "_loop", "line": 190, "message": "Agente 'optimizador' entrando en loop"}
+{"time": "2026-10-19 15:52:59.256", "level": "INFO", "module": "agents.optimizador", "function": "start", "line": 123, "message": "🚀 Agente 'optimizador' arrancado"}
+{"time": "2026-10-19 15:52:59.470", "level": "DEBUG", "module": "agents.cliente_1792439579470601900", "function": "__init__", "line": 105, "message": "Agente 'cliente_1792439579470601900' registrado"}
+{"time": "2026-10-19 15:52:59.470", "level": "DEBUG", "module": "agents.cliente_1792439579470601900", "function": "_loop", "line": 190, "message": "Agente 'cliente_1792439579470601900' entrando en loop"}
+{"time": "2026-10-19 15:52:59.470", "level": "INFO", "module": "agents.cliente_1792439579470601900", "function": "start", "line": 123, "message": "🚀 Agente 'cliente_1792439579470601900' arrancado"}
+{"time": "2026-10-19 15:52:59.572", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ optimizador: optimizar"}
+{"time": "2026-10-19 15:52:59.572", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=100, seed=42"}
+{"time": "2026-10-19 15:52:59.987", "level": "INFO", "module": "agents.optimizador", "function": "_handle_optimizar", "line": 120, "message": "Agenda generada: algoritmo=sa, score=-29.86, tiempo=418.9ms"}
+{"time": "2026-10-19 15:52:59.987", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ cliente_1792439579470601900: agenda_optimizada"}
+{"time": "2026-10-19 15:53:00.504", "level": "DEBUG", "module": "agents.cliente_1792439579470601900", "function": "_loop", "line": 223, "message": "Agente 'cliente_1792439579470601900' saliendo del loop"}
+{"time": "2026-10-19 15:53:00.506", "level": "INFO", "module": "agents.cliente_1792439579470601900", "function": "stop", "line": 134, "message": "🛑 Agente 'cliente_1792439579470601900' detenido"}
+{"time": "2026-10-19 15:53:00.506", "level": "DEBUG", "module": "agents.cliente_1792439580506042700", "function": "__init__", "line": 105, "message": "Agente 'cliente_1792439580506042700' registrado"}
+{"time": "2026-10-19 15:53:00.506", "level": "DEBUG", "module": "agents.cliente_1792439580506042700", "function": "_loop", "line": 190, "message": "Agente 'cliente_1792439580506042700' entrando en loop"}
+{"time": "2026-10-19 15:53:00.506", "level": "INFO", "module": "agents.cliente_1792439580506042700", "function": "start", "line": 123, "message": "🚀 Agente 'cliente_1792439580506042700' arrancado"}
+{"time": "2026-10-19 15:53:00.617", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ optimizador: optimizar"}
+{"time": "2026-10-19 15:53:00.617", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=100, seed=42"}
+{"time": "2026-10-19 15:53:00.755", "level": "INFO", "module": "agents.optimizador", "function": "_handle_optimizar", "line": 120, "message": "Agenda generada: algoritmo=hc, score=-114.30, tiempo=145.1ms"}
+{"time": "2026-10-19 15:53:00.755", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ cliente_1792439580506042700: agenda_optimizada"}
+{"time": "2026-10-19 15:53:01.270", "level": "DEBUG", "module": "agents.cliente_1792439580506042700", "function": "_loop", "line": 223, "message": "Agente 'cliente_1792439580506042700' saliendo del loop"}
+{"time": "2026-10-19 15:53:01.270", "level": "INFO", "module": "agents.cliente_1792439580506042700", "function": "stop", "line": 134, "message": "🛑 Agente 'cliente_1792439580506042700' detenido"}
+{"time": "2026-10-19 15:53:01.276", "level": "DEBUG", "module": "agents.cliente_1792439581276352400", "function": "__init__", "line": 105, "message": "Agente 'cliente_1792439581276352400' registrado"}
+{"time": "2026-10-19 15:53:01.276", "level": "DEBUG", "module": "agents.cliente_1792439581276352400", "function": "_loop", "line": 190, "message": "Agente 'cliente_1792439581276352400' entrando en loop"}
+{"time": "2026-10-19 15:53:01.276", "level": "INFO", "module": "agents.cliente_1792439581276352400", "function": "start", "line": 123, "message": "🚀 Agente 'cliente_1792439581276352400' arrancado"}
+{"time": "2026-10-19 15:53:01.382", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ optimizador: optimizar"}
+{"time": "2026-10-19 15:53:01.382", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=100, seed=42"}
+{"time": "2026-10-19 15:53:01.534", "level": "INFO", "module": "agents.optimizador", "function": "_handle_optimizar", "line": 120, "message": "Agenda generada: algoritmo=random, score=-62.57, tiempo=158.2ms"}
+{"time": "2026-10-19 15:53:01.534", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ cliente_1792439581276352400: agenda_optimizada"}
+{"time": "2026-10-19 15:53:02.045", "level": "DEBUG", "module": "agents.cliente_1792439581276352400", "function": "_loop", "line": 223, "message": "Agente 'cliente_1792439581276352400' saliendo del loop"}
+{"time": "2026-10-19 15:53:02.045", "level": "INFO", "module": "agents.cliente_1792439581276352400", "function": "stop", "line": 134, "message": "🛑 Agente 'cliente_1792439581276352400' detenido"}
+{"time": "2026-10-19 15:53:02.045", "level": "DEBUG", "module": "agents.cliente_1792439582045023100", "function": "__init__", "line": 105, "message": "Agente 'cliente_1792439582045023100' registrado"}
+{"time": "2026-10-19 15:53:02.045", "level": "DEBUG", "module": "agents.cliente_1792439582045023100", "function": "_loop", "line": 190, "message": "Agente 'cliente_1792439582045023100' entrando en loop"}
+{"time": "2026-10-19 15:53:02.045", "level": "INFO", "module": "agents.cliente_1792439582045023100", "function": "start", "line": 123, "message": "🚀 Agente 'cliente_1792439582045023100' arrancado"}
+{"time": "2026-10-19 15:53:02.157", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ optimizador: optimizar"}
+{"time": "2026-10-19 15:53:02.157", "level": "WARNING", "module": "agents.optimizador", "function": "_responder_error", "line": 158, "message": "Error en optimización: pool vacío"}
+{"time": "2026-10-19 15:53:02.157", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ cliente_1792439582045023100: agenda_optimizada"}
+{"time": "2026-10-19 15:53:02.674", "level": "DEBUG", "module": "agents.cliente_1792439582045023100", "function": "_loop", "line": 223, "message": "Agente 'cliente_1792439582045023100' saliendo del loop"}
+{"time": "2026-10-19 15:53:02.674", "level": "INFO", "module": "agents.cliente_1792439582045023100", "function": "stop", "line": 134, "message": "🛑 Agente 'cliente_1792439582045023100' detenido"}
+{"time": "2026-10-19 15:53:02.680", "level": "DEBUG", "module": "agents.cliente_1792439582680426800", "function": "__init__", "line": 105, "message": "Agente 'cliente_1792439582680426800' registrado"}
+{"time": "2026-10-19 15:53:02.680", "level": "DEBUG", "module": "agents.cliente_1792439582680426800", "function": "_loop", "line": 190, "message": "Agente 'cliente_1792439582680426800' entrando en loop"}
+{"time": "2026-10-19 15:53:02.680", "level": "INFO", "module": "agents.cliente_1792439582680426800", "function": "start", "line": 123, "message": "🚀 Agente 'cliente_1792439582680426800' arrancado"}
+{"time": "2026-10-19 15:53:02.786", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ optimizador: optimizar"}
+{"time": "2026-10-19 15:53:02.786", "level": "WARNING", "module": "agents.optimizador", "function": "_responder_error", "line": 158, "message": "Error en optimización: algoritmo desconocido: no_existe. Válidos: ['random', 'hc', 'sa']"}
+{"time": "2026-10-19 15:53:02.786", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ cliente_1792439582680426800: agenda_optimizada"}
+{"time": "2026-10-19 15:53:03.298", "level": "DEBUG", "module": "agents.cliente_1792439582680426800", "function": "_loop", "line": 223, "message": "Agente 'cliente_1792439582680426800' saliendo del loop"}
+{"time": "2026-10-19 15:53:03.298", "level": "INFO", "module": "agents.cliente_1792439582680426800", "function": "stop", "line": 134, "message": "🛑 Agente 'cliente_1792439582680426800' detenido"}
+{"time": "2026-10-19 15:53:03.298", "level": "DEBUG", "module": "agents.cliente_1792439583298170200", "function": "__init__", "line": 105, "message": "Agente 'cliente_1792439583298170200' registrado"}
+{"time": "2026-10-19 15:53:03.298", "level": "DEBUG", "module": "agents.cliente_1792439583298170200", "function": "_loop", "line": 190, "message": "Agente 'cliente_1792439583298170200' entrando en loop"}
+{"time": "2026-10-19 15:53:03.298", "level": "INFO", "module": "agents.cliente_1792439583298170200", "function": "start", "line": 123, "message": "🚀 Agente 'cliente_1792439583298170200' arrancado"}
+{"time": "2026-10-19 15:53:03.402", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ optimizador: optimizar"}
+{"time": "2026-10-19 15:53:03.402", "level": "WARNING", "module": "agents.optimizador", "function": "_responder_error", "line": 158, "message": "Error en optimización: pool insuficiente: 2 eventos para cantidad=5"}
+{"time": "2026-10-19 15:53:03.402", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ cliente_1792439583298170200: agenda_optimizada"}
+{"time": "2026-10-19 15:53:03.916", "level": "DEBUG", "module": "agents.cliente_1792439583298170200", "function": "_loop", "line": 223, "message": "Agente 'cliente_1792439583298170200' saliendo del loop"}
+{"time": "2026-10-19 15:53:03.916", "level": "INFO", "module": "agents.cliente_1792439583298170200", "function": "stop", "line": 134, "message": "🛑 Agente 'cliente_1792439583298170200' detenido"}
+{"time": "2026-10-19 15:53:03.916", "level": "DEBUG", "module": "agents.cliente_1792439583916106000", "function": "__init__", "line": 105, "message": "Agente 'cliente_1792439583916106000' registrado"}
+{"time": "2026-10-19 15:53:03.916", "level": "DEBUG", "module": "agents.cliente_1792439583916106000", "function": "_loop", "line": 190, "message": "Agente 'cliente_1792439583916106000' entrando en loop"}
+{"time": "2026-10-19 15:53:03.916", "level": "INFO", "module": "agents.cliente_1792439583916106000", "function": "start", "line": 123, "message": "🚀 Agente 'cliente_1792439583916106000' arrancado"}
+{"time": "2026-10-19 15:53:04.026", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ optimizador: algoritmos_disponibles"}
+{"time": "2026-10-19 15:53:04.026", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ cliente_1792439583916106000: algoritmos_disponibles"}
+{"time": "2026-10-19 15:53:04.537", "level": "DEBUG", "module": "agents.cliente_1792439583916106000", "function": "_loop", "line": 223, "message": "Agente 'cliente_1792439583916106000' saliendo del loop"}
+{"time": "2026-10-19 15:53:04.537", "level": "INFO", "module": "agents.cliente_1792439583916106000", "function": "stop", "line": 134, "message": "🛑 Agente 'cliente_1792439583916106000' detenido"}
+{"time": "2026-10-19 15:53:04.537", "level": "DEBUG", "module": "agents.cliente_1792439584537161500", "function": "__init__", "line": 105, "message": "Agente 'cliente_1792439584537161500' registrado"}
+{"time": "2026-10-19 15:53:04.537", "level": "DEBUG", "module": "agents.cliente_1792439584537161500", "function": "_loop", "line": 190, "message": "Agente 'cliente_1792439584537161500' entrando en loop"}
+{"time": "2026-10-19 15:53:04.537", "level": "INFO", "module": "agents.cliente_1792439584537161500", "function": "start", "line": 123, "message": "🚀 Agente 'cliente_1792439584537161500' arrancado"}
+{"time": "2026-10-19 15:53:04.642", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ optimizador: optimizar"}
+{"time": "2026-10-19 15:53:04.642", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=100, seed=42"}
+{"time": "2026-10-19 15:53:05.168", "level": "INFO", "module": "agents.optimizador", "function": "_handle_optimizar", "line": 120, "message": "Agenda generada: algoritmo=sa, score=-29.86, tiempo=525.6ms"}
+{"time": "2026-10-19 15:53:05.168", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ cliente_1792439584537161500: agenda_optimizada"}
+{"time": "2026-10-19 15:53:05.203", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ optimizador: optimizar"}
+{"time": "2026-10-19 15:53:05.203", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=100, seed=42"}
+{"time": "2026-10-19 15:53:05.713", "level": "INFO", "module": "agents.optimizador", "function": "_handle_optimizar", "line": 120, "message": "Agenda generada: algoritmo=sa, score=-29.86, tiempo=523.1ms"}
+{"time": "2026-10-19 15:53:05.713", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ cliente_1792439584537161500: agenda_optimizada"}
+{"time": "2026-10-19 15:53:05.733", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ optimizador: optimizar"}
+{"time": "2026-10-19 15:53:05.733", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=100, seed=42"}
+{"time": "2026-10-19 15:53:06.509", "level": "INFO", "module": "agents.optimizador", "function": "_handle_optimizar", "line": 120, "message": "Agenda generada: algoritmo=sa, score=-29.86, tiempo=776.9ms"}
+{"time": "2026-10-19 15:53:06.509", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ cliente_1792439584537161500: agenda_optimizada"}
+{"time": "2026-10-19 15:53:06.560", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ optimizador: stats"}
+{"time": "2026-10-19 15:53:06.561", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ cliente_1792439584537161500: stats_optimizador"}
+{"time": "2026-10-19 15:53:07.066", "level": "DEBUG", "module": "agents.cliente_1792439584537161500", "function": "_loop", "line": 223, "message": "Agente 'cliente_1792439584537161500' saliendo del loop"}
+{"time": "2026-10-19 15:53:07.066", "level": "INFO", "module": "agents.cliente_1792439584537161500", "function": "stop", "line": 134, "message": "🛑 Agente 'cliente_1792439584537161500' detenido"}
+{"time": "2026-10-19 15:53:07.068", "level": "DEBUG", "module": "agents.cliente_1792439587068326100", "function": "__init__", "line": 105, "message": "Agente 'cliente_1792439587068326100' registrado"}
+{"time": "2026-10-19 15:53:07.069", "level": "DEBUG", "module": "agents.cliente_1792439587068326100", "function": "_loop", "line": 190, "message": "Agente 'cliente_1792439587068326100' entrando en loop"}
+{"time": "2026-10-19 15:53:07.070", "level": "INFO", "module": "agents.cliente_1792439587068326100", "function": "start", "line": 123, "message": "🚀 Agente 'cliente_1792439587068326100' arrancado"}
+{"time": "2026-10-19 15:53:07.191", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ optimizador: optimizar"}
+{"time": "2026-10-19 15:53:07.192", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=100, seed=123"}
+{"time": "2026-10-19 15:53:07.655", "level": "INFO", "module": "agents.optimizador", "function": "_handle_optimizar", "line": 120, "message": "Agenda generada: algoritmo=sa, score=-8.93, tiempo=463.1ms"}
+{"time": "2026-10-19 15:53:07.655", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ cliente_1792439587068326100: agenda_optimizada"}
+{"time": "2026-10-19 15:53:07.693", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ optimizador: optimizar"}
+{"time": "2026-10-19 15:53:07.693", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=100, seed=123"}
+{"time": "2026-10-19 15:53:08.264", "level": "INFO", "module": "agents.optimizador", "function": "_handle_optimizar", "line": 120, "message": "Agenda generada: algoritmo=sa, score=-8.93, tiempo=571.9ms"}
+{"time": "2026-10-19 15:53:08.265", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ cliente_1792439587068326100: agenda_optimizada"}
+{"time": "2026-10-19 15:53:08.781", "level": "DEBUG", "module": "agents.cliente_1792439587068326100", "function": "_loop", "line": 223, "message": "Agente 'cliente_1792439587068326100' saliendo del loop"}
+{"time": "2026-10-19 15:53:08.785", "level": "INFO", "module": "agents.cliente_1792439587068326100", "function": "stop", "line": 134, "message": "🛑 Agente 'cliente_1792439587068326100' detenido"}
+{"time": "2026-10-19 15:53:09.286", "level": "DEBUG", "module": "agents.optimizador", "function": "_loop", "line": 223, "message": "Agente 'optimizador' saliendo del loop"}
+{"time": "2026-10-19 15:53:09.286", "level": "INFO", "module": "agents.optimizador", "function": "stop", "line": 134, "message": "🛑 Agente 'optimizador' detenido"}
+{"time": "2026-10-19 15:53:09.326", "level": "INFO", "module": "eventide.core.embedding", "function": "__init__", "line": 98, "message": "Cargando modelo de embeddings: paraphrase-multilingual-mpnet-base-v2"}
+{"time": "2026-10-19 15:53:16.220", "level": "INFO", "module": "eventide.core.embedding", "function": "__init__", "line": 114, "message": "EventEmbedder inicializado correctamente"}
+{"time": "2026-10-19 15:53:16.220", "level": "INFO", "module": "eventide.core.embedding", "function": "__init__", "line": 98, "message": "Cargando modelo de embeddings: paraphrase-multilingual-mpnet-base-v2"}
+{"time": "2026-10-19 15:53:21.454", "level": "INFO", "module": "eventide.core.embedding", "function": "__init__", "line": 114, "message": "EventEmbedder inicializado correctamente"}
+{"time": "2026-10-19 15:53:21.454", "level": "INFO", "module": "eventide.core.embedding", "function": "__init__", "line": 98, "message": "Cargando modelo de embeddings: paraphrase-multilingual-mpnet-base-v2"}
+{"time": "2026-10-19 15:53:27.328", "level": "INFO", "module": "eventide.core.embedding", "function": "__init__", "line": 114, "message": "EventEmbedder inicializado correctamente"}
+{"time": "2026-10-19 15:53:27.342", "level": "INFO", "module": "eventide.core.embedding", "function": "generate_embeddings", "line": 207, "message": "Generando embeddings para 20 eventos..."}
+{"time": "2026-10-19 15:53:30.202", "level": "INFO", "module": "eventide.core.embedding", "function": "generate_embeddings", "line": 220, "message": "Embeddings generados. Shape: (20, 768)"}
+{"time": "2026-10-19 15:53:30.208", "level": "INFO", "module": "eventide.core.embedding", "function": "generate_embeddings", "line": 207, "message": "Generando embeddings para 20 eventos..."}
+{"time": "2026-10-19 15:53:33.238", "level": "INFO", "module": "eventide.core.embedding", "function": "generate_embeddings", "line": 220, "message": "Embeddings generados. Shape: (20, 768)"}
+{"time": "2026-10-19 15:53:33.243", "level": "INFO", "module": "eventide.core.embedding", "function": "generate_embeddings", "line": 207, "message": "Generando embeddings para 20 eventos..."}
+{"time": "2026-10-19 15:53:35.928", "level": "INFO", "module": "eventide.core.embedding", "function": "generate_embeddings", "line": 220, "message": "Embeddings generados. Shape: (20, 768)"}
+{"time": "2026-10-19 15:53:35.928", "level": "INFO", "module": "eventide.core.embedding", "function": "build_index", "line": 239, "message": "Construyendo índice FAISS (flat, dim=768)..."}
+{"time": "2026-10-19 15:53:35.928", "level": "INFO", "module": "eventide.core.embedding", "function": "build_index", "line": 254, "message": "Índice construido. Total vectores: 20"}
+{"time": "2026-10-19 15:53:35.932", "level": "INFO", "module": "eventide.core.embedding", "function": "build_shards", "line": 267, "message": "Construyendo shards por ciudad..."}
+{"time": "2026-10-19 15:53:35.932", "level": "INFO", "module": "eventide.core.embedding", "function": "build_shards", "line": 285, "message": "Shards construidos: 14 ciudades, tamaños: [2, 1, 1, 1, 2, 1, 1, 3, 2, 1, 1, 1, 2, 1]"}
+{"time": "2026-10-19 15:53:36.228", "level": "INFO", "module": "eventide.core.embedding", "function": "save", "line": 443, "message": "Datos guardados en C:\Users\olivia.ibanez\AppData\Local\Temp\pytest-of-olivia.ibanez\pytest-24\test_save_and_load0"}
+{"time": "2026-10-19 15:53:36.229", "level": "INFO", "module": "eventide.core.embedding", "function": "__init__", "line": 98, "message": "Cargando modelo de embeddings: paraphrase-multilingual-mpnet-base-v2"}
+{"time": "2026-10-19 15:53:49.652", "level": "INFO", "module": "eventide.core.embedding", "function": "__init__", "line": 114, "message": "EventEmbedder inicializado correctamente"}
+{"time": "2026-10-19 15:53:49.667", "level": "INFO", "module": "eventide.core.embedding", "function": "build_shards", "line": 267, "message": "Construyendo shards por ciudad..."}
+{"time": "2026-10-19 15:53:49.667", "level": "INFO", "module": "eventide.core.embedding", "function": "build_shards", "line": 285, "message": "Shards construidos: 14 ciudades, tamaños: [2, 1, 1, 1, 2, 1, 1, 3, 2, 1, 1, 1, 2, 1]"}
+{"time": "2026-10-19 15:53:49.667", "level": "INFO", "module": "eventide.core.embedding", "function": "load", "line": 470, "message": "Cargados 20 eventos desde C:\Users\olivia.ibanez\AppData\Local\Temp\pytest-of-olivia.ibanez\pytest-24\test_save_and_load0"}
+{"time": "2026-10-19 15:53:49.685", "level": "INFO", "module": "eventide.core.embedding", "function": "load_events_from_folder", "line": 60, "message": "Cargados 0 eventos desde C:\Users\olivia.ibanez\AppData\Local\Temp\pytest-of-olivia.ibanez\pytest-24\test_load_events_empty_folder0"}
+{"time": "2026-10-19 15:53:49.685", "level": "INFO", "module": "eventide.core.knowledge_graph", "function": "build", "line": 110, "message": "Construyendo grafo con 30 eventos..."}
+{"time": "2026-10-19 15:53:49.685", "level": "WARNING", "module": "eventide.core.knowledge_graph", "function": "_add_similarity_edges", "line": 236, "message": "Embedder no disponible. Saltando aristas de similitud."}
+{"time": "2026-10-19 15:53:49.685", "level": "INFO", "module": "eventide.core.knowledge_graph", "function": "build", "line": 124, "message": "Grafo construido: 133 nodos, 302 aristas"}
+{"time": "2026-10-19 15:53:49.800", "level": "INFO", "module": "eventide.core.knowledge_graph", "function": "save", "line": 381, "message": "Grafo guardado en C:\Users\olivia.ibanez\AppData\Local\Temp\pytest-of-olivia.ibanez\pytest-24\test_save_and_load1\grafo.graphml"}
+{"time": "2026-10-19 15:53:49.808", "level": "INFO", "module": "eventide.core.knowledge_graph", "function": "load", "line": 396, "message": "Grafo cargado desde C:\Users\olivia.ibanez\AppData\Local\Temp\pytest-of-olivia.ibanez\pytest-24\test_save_and_load1\grafo.graphml: 133 nodos, 302 aristas"}
+{"time": "2026-10-19 15:53:49.818", "level": "INFO", "module": "eventide.core.knowledge_graph", "function": "build", "line": 110, "message": "Construyendo grafo con 30 eventos..."}
+{"time": "2026-10-19 15:53:49.821", "level": "WARNING", "module": "eventide.core.knowledge_graph", "function": "_add_similarity_edges", "line": 236, "message": "Embedder no disponible. Saltando aristas de similitud."}
+{"time": "2026-10-19 15:53:49.822", "level": "INFO", "module": "eventide.core.knowledge_graph", "function": "build", "line": 124, "message": "Grafo construido: 133 nodos, 302 aristas"}
+{"time": "2026-10-19 15:53:49.824", "level": "INFO", "module": "eventide.core.knowledge_graph", "function": "build", "line": 110, "message": "Construyendo grafo con 1 eventos..."}
+{"time": "2026-10-19 15:53:49.824", "level": "WARNING", "module": "eventide.core.knowledge_graph", "function": "_add_similarity_edges", "line": 236, "message": "Embedder no disponible. Saltando aristas de similitud."}
+{"time": "2026-10-19 15:53:49.825", "level": "INFO", "module": "eventide.core.knowledge_graph", "function": "build", "line": 124, "message": "Grafo construido: 5 nodos, 4 aristas"}
+{"time": "2026-10-19 15:53:49.827", "level": "INFO", "module": "eventide.core.knowledge_graph", "function": "build", "line": 110, "message": "Construyendo grafo con 1 eventos..."}
+{"time": "2026-10-19 15:53:49.827", "level": "WARNING", "module": "eventide.core.knowledge_graph", "function": "_add_similarity_edges", "line": 236, "message": "Embedder no disponible. Saltando aristas de similitud."}
+{"time": "2026-10-19 15:53:49.827", "level": "INFO", "module": "eventide.core.knowledge_graph", "function": "build", "line": 124, "message": "Grafo construido: 5 nodos, 5 aristas"}
+{"time": "2026-10-19 15:53:49.833", "level": "INFO", "module": "test_module", "function": "test_logger_does_not_crash", "line": 14, "message": "Mensaje de prueba"}
+{"time": "2026-10-19 15:53:49.833", "level": "WARNING", "module": "test_module", "function": "test_logger_does_not_crash", "line": 15, "message": "Advertencia"}
+{"time": "2026-10-19 15:53:49.833", "level": "ERROR", "module": "test_module", "function": "test_logger_does_not_crash", "line": 16, "message": "Error simulado"}
+{"time": "2026-10-19 15:53:50.096", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=100, seed=1"}
+{"time": "2026-10-19 15:53:50.728", "level": "ERROR", "module": "eventide.core.processing", "function": "process_event", "line": 100, "message": "[predicthq] Error procesando evento c79b60c2-df6f-410d-a70b-30a1b5a4840a: Faltan campos obligatorios: title"}
+{"time": "2026-10-19 15:53:50.730", "level": "ERROR", "module": "eventide.core.processing", "function": "process_event", "line": 100, "message": "[predicthq] Error procesando evento c261ec07-1721-4b2b-8daf-24984a5317f5: Faltan campos obligatorios: venue info"}
+{"time": "2026-10-19 15:56:11.437", "level": "INFO", "module": "eventide.cli", "function": "_cmd_serve", "line": 30, "message": "============================================================"}
+{"time": "2026-10-19 15:56:11.437", "level": "INFO", "module": "eventide.cli", "function": "_cmd_serve", "line": 31, "message": "Eventide API"}
+{"time": "2026-10-19 15:56:11.437", "level": "INFO", "module": "eventide.cli", "function": "_cmd_serve", "line": 32, "message": "============================================================"}
+{"time": "2026-10-19 15:56:11.437", "level": "INFO", "module": "eventide.cli", "function": "_cmd_serve", "line": 35, "message": "Arrancando agentes..."}
+{"time": "2026-10-19 15:56:11.437", "level": "DEBUG", "module": "agents.buscador", "function": "__init__", "line": 105, "message": "Agente 'buscador' registrado"}
+{"time": "2026-10-19 15:56:11.437", "level": "DEBUG", "module": "agents.optimizador", "function": "__init__", "line": 105, "message": "Agente 'optimizador' registrado"}
+{"time": "2026-10-19 15:56:11.437", "level": "DEBUG", "module": "agents.narrador", "function": "__init__", "line": 105, "message": "Agente 'narrador' registrado"}
+{"time": "2026-10-19 15:56:11.437", "level": "DEBUG", "module": "agents.buscador", "function": "_loop", "line": 190, "message": "Agente 'buscador' entrando en loop"}
+{"time": "2026-10-19 15:56:11.437", "level": "INFO", "module": "agents.buscador", "function": "start", "line": 123, "message": "🚀 Agente 'buscador' arrancado"}
+{"time": "2026-10-19 15:56:11.437", "level": "INFO", "module": "agents.buscador", "function": "_setup_impl", "line": 47, "message": "Inicializando motor de busqueda..."}
+{"time": "2026-10-19 15:56:11.437", "level": "DEBUG", "module": "agents.optimizador", "function": "_loop", "line": 190, "message": "Agente 'optimizador' entrando en loop"}
+{"time": "2026-10-19 15:56:11.437", "level": "WARNING", "module": "agents.buscador", "function": "_setup_impl", "line": 58, "message": "No hay embeddings en disco. Buscando alternativa..."}
+{"time": "2026-10-19 15:56:11.437", "level": "INFO", "module": "agents.optimizador", "function": "start", "line": 123, "message": "🚀 Agente 'optimizador' arrancado"}
+{"time": "2026-10-19 15:56:11.437", "level": "WARNING", "module": "agents.buscador", "function": "_setup_impl", "line": 78, "message": "Generando datos sinteticos de arranque..."}
+{"time": "2026-10-19 15:56:11.452", "level": "DEBUG", "module": "agents.narrador", "function": "_loop", "line": 190, "message": "Agente 'narrador' entrando en loop"}
+{"time": "2026-10-19 15:56:11.452", "level": "INFO", "module": "agents.narrador", "function": "start", "line": 123, "message": "🚀 Agente 'narrador' arrancado"}
+{"time": "2026-10-19 15:56:11.452", "level": "INFO", "module": "eventide.cli", "function": "_cmd_serve", "line": 45, "message": "Esperando setup() del buscador (carga del modelo)..."}
+{"time": "2026-10-19 15:56:11.461", "level": "INFO", "module": "eventide.core.embedding", "function": "__init__", "line": 98, "message": "Cargando modelo de embeddings: paraphrase-multilingual-mpnet-base-v2"}
+{"time": "2026-10-19 15:56:19.125", "level": "INFO", "module": "eventide.core.embedding", "function": "__init__", "line": 114, "message": "EventEmbedder inicializado correctamente"}
+{"time": "2026-10-19 15:56:19.125", "level": "INFO", "module": "eventide.core.embedding", "function": "generate_embeddings", "line": 207, "message": "Generando embeddings para 200 eventos..."}
+{"time": "2026-10-19 15:56:19.186", "level": "INFO", "module": "eventide.cli", "function": "_cmd_serve", "line": 56, "message": "✅ Agentes listos: ['buscador', 'narrador', 'optimizador'] · 200 eventos indexados"}
+{"time": "2026-10-19 15:56:19.186", "level": "INFO", "module": "eventide.cli", "function": "_cmd_serve", "line": 60, "message": "🌐 Escuchando en http://0.0.0.0:8502"}
+{"time": "2026-10-19 15:56:19.186", "level": "INFO", "module": "eventide.cli", "function": "_cmd_serve", "line": 61, "message": "   Prueba: http://localhost:8502/health"}
+{"time": "2026-10-19 15:56:19.190", "level": "INFO", "module": "eventide.cli", "function": "_cmd_serve", "line": 62, "message": ""}
+{"time": "2026-10-19 15:56:19.196", "level": "INFO", "module": "eventide.api.server", "function": "crear_app", "line": 46, "message": "App Flask creada con rutas registradas"}
+{"time": "2026-10-19 15:56:19.196", "level": "INFO", "module": "eventide.api.server", "function": "run", "line": 53, "message": "🚀 Arrancando API en http://0.0.0.0:8502"}
+{"time": "2026-10-19 15:56:20.640", "level": "WARNING", "module": "agents.narrador", "function": "setup", "line": 212, "message": "Gemini no responde en 8s. Activando modo fallback."}
+{"time": "2026-10-19 15:56:46.132", "level": "INFO", "module": "eventide.core.embedding", "function": "generate_embeddings", "line": 220, "message": "Embeddings generados. Shape: (200, 768)"}
+{"time": "2026-10-19 15:56:46.132", "level": "INFO", "module": "eventide.core.embedding", "function": "build_index", "line": 239, "message": "Construyendo índice FAISS (flat, dim=768)..."}
+{"time": "2026-10-19 15:56:46.135", "level": "INFO", "module": "eventide.core.embedding", "function": "build_index", "line": 254, "message": "Índice construido. Total vectores: 200"}
+{"time": "2026-10-19 15:56:46.135", "level": "INFO", "module": "eventide.core.embedding", "function": "build_shards", "line": 267, "message": "Construyendo shards por ciudad..."}
+{"time": "2026-10-19 15:56:46.137", "level": "INFO", "module": "eventide.core.embedding", "function": "build_shards", "line": 285, "message": "Shards construidos: 25 ciudades, tamaños: [8, 7, 10, 5, 7, 4, 8, 14, 10, 11, 6, 9, 14, 6, 9, 10, 8, 11, 5, 7, 7, 8, 6, 4, 6]"}
+{"time": "2026-10-19 15:56:46.137", "level": "INFO", "module": "agents.buscador", "function": "_setup_impl", "line": 87, "message": "Embedder listo con 200 eventos sinteticos"}
+{"time": "2026-10-19 15:56:46.270", "level": "INFO", "module": "agents.buscador", "function": "_construir_corrector", "line": 106, "message": "Corrector ortografico listo. Vocabulario: 116 palabras"}
+{"time": "2026-10-19 15:57:02.505", "level": "INFO", "module": "agents.buscador", "function": "_handle_buscar", "line": 160, "message": "Query corregida: 'conciertos' -> 'concierto'"}
+{"time": "2026-10-19 15:57:02.505", "level": "INFO", "module": "agents.buscador", "function": "_handle_buscar", "line": 167, "message": "Buscando: query='concierto' ciudad=None categoria=None k=20"}
+{"time": "2026-10-19 15:57:02.578", "level": "INFO", "module": "agents.buscador", "function": "_handle_buscar", "line": 224, "message": "Encontrados 20 resultados"}
+{"time": "2026-10-19 15:57:02.578", "level": "DEBUG", "module": "agents.buscador", "function": "enviar", "line": 176, "message": "→ resp_25017b94d3e1: resultados_busqueda"}
+{"time": "2026-10-19 15:57:04.666", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=20, seed=42"}
+{"time": "2026-10-19 15:57:05.139", "level": "INFO", "module": "agents.optimizador", "function": "_handle_optimizar", "line": 120, "message": "Agenda generada: algoritmo=sa, score=-99.46, tiempo=475.5ms"}
+{"time": "2026-10-19 15:57:05.139", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ resp_61f7c286fd71: agenda_optimizada"}
+{"time": "2026-10-19 15:57:07.190", "level": "INFO", "module": "agents.narrador", "function": "_handle_narrar", "line": 308, "message": "Narracion generada: fuente=fallback, tiempo=0.1ms, chars=819"}
+{"time": "2026-10-19 15:57:07.190", "level": "DEBUG", "module": "agents.narrador", "function": "enviar", "line": 176, "message": "→ resp_76a63ea049cd: narracion_lista"}
+{"time": "2026-10-19 15:57:27.168", "level": "INFO", "module": "agents.buscador", "function": "_handle_buscar", "line": 160, "message": "Query corregida: 'conciertos' -> 'concierto'"}
+{"time": "2026-10-19 15:57:27.168", "level": "INFO", "module": "agents.buscador", "function": "_handle_buscar", "line": 167, "message": "Buscando: query='concierto' ciudad=None categoria=None k=20"}
+{"time": "2026-10-19 15:57:27.239", "level": "INFO", "module": "agents.buscador", "function": "_handle_buscar", "line": 224, "message": "Encontrados 20 resultados"}
+{"time": "2026-10-19 15:57:27.239", "level": "DEBUG", "module": "agents.buscador", "function": "enviar", "line": 176, "message": "→ resp_8c4ed0126bf1: resultados_busqueda"}
+{"time": "2026-10-19 15:57:29.343", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=20, seed=42"}
+{"time": "2026-10-19 15:57:29.785", "level": "INFO", "module": "agents.optimizador", "function": "_handle_optimizar", "line": 120, "message": "Agenda generada: algoritmo=sa, score=-106.54, tiempo=445.6ms"}
+{"time": "2026-10-19 15:57:29.785", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ resp_95fe28db394f: agenda_optimizada"}
+{"time": "2026-10-19 15:57:31.876", "level": "INFO", "module": "agents.narrador", "function": "_handle_narrar", "line": 308, "message": "Narracion generada: fuente=fallback, tiempo=0.1ms, chars=806"}
+{"time": "2026-10-19 15:57:31.876", "level": "DEBUG", "module": "agents.narrador", "function": "enviar", "line": 176, "message": "→ resp_4bd2ded518fb: narracion_lista"}
+{"time": "2026-10-19 15:58:53.742", "level": "INFO", "module": "eventide.cli", "function": "_shutdown", "line": 65, "message": "Deteniendo agentes..."}
+{"time": "2026-10-19 15:58:54.245", "level": "DEBUG", "module": "agents.buscador", "function": "_loop", "line": 223, "message": "Agente 'buscador' saliendo del loop"}
+{"time": "2026-10-19 15:58:54.245", "level": "INFO", "module": "agents.buscador", "function": "stop", "line": 134, "message": "🛑 Agente 'buscador' detenido"}
+{"time": "2026-10-19 15:58:54.760", "level": "DEBUG", "module": "agents.optimizador", "function": "_loop", "line": 223, "message": "Agente 'optimizador' saliendo del loop"}
+{"time": "2026-10-19 15:58:54.760", "level": "INFO", "module": "agents.optimizador", "function": "stop", "line": 134, "message": "🛑 Agente 'optimizador' detenido"}
+{"time": "2026-10-19 15:58:55.261", "level": "DEBUG", "module": "agents.narrador", "function": "_loop", "line": 223, "message": "Agente 'narrador' saliendo del loop"}
+{"time": "2026-10-19 15:58:55.261", "level": "INFO", "module": "agents.narrador", "function": "stop", "line": 134, "message": "🛑 Agente 'narrador' detenido"}
+{"time": "2026-10-19 15:59:11.561", "level": "INFO", "module": "eventide.cli", "function": "_cmd_serve", "line": 30, "message": "============================================================"}
+{"time": "2026-10-19 15:59:11.561", "level": "INFO", "module": "eventide.cli", "function": "_cmd_serve", "line": 31, "message": "Eventide API"}
+{"time": "2026-10-19 15:59:11.561", "level": "INFO", "module": "eventide.cli", "function": "_cmd_serve", "line": 32, "message": "============================================================"}
+{"time": "2026-10-19 15:59:11.561", "level": "INFO", "module": "eventide.cli", "function": "_cmd_serve", "line": 35, "message": "Arrancando agentes..."}
+{"time": "2026-10-19 15:59:11.561", "level": "DEBUG", "module": "agents.buscador", "function": "__init__", "line": 105, "message": "Agente 'buscador' registrado"}
+{"time": "2026-10-19 15:59:11.561", "level": "DEBUG", "module": "agents.optimizador", "function": "__init__", "line": 105, "message": "Agente 'optimizador' registrado"}
+{"time": "2026-10-19 15:59:11.561", "level": "DEBUG", "module": "agents.narrador", "function": "__init__", "line": 105, "message": "Agente 'narrador' registrado"}
+{"time": "2026-10-19 15:59:11.561", "level": "DEBUG", "module": "agents.buscador", "function": "_loop", "line": 190, "message": "Agente 'buscador' entrando en loop"}
+{"time": "2026-10-19 15:59:11.561", "level": "INFO", "module": "agents.buscador", "function": "start", "line": 123, "message": "🚀 Agente 'buscador' arrancado"}
+{"time": "2026-10-19 15:59:11.561", "level": "INFO", "module": "agents.buscador", "function": "_setup_impl", "line": 47, "message": "Inicializando motor de busqueda..."}
+{"time": "2026-10-19 15:59:11.561", "level": "DEBUG", "module": "agents.optimizador", "function": "_loop", "line": 190, "message": "Agente 'optimizador' entrando en loop"}
+{"time": "2026-10-19 15:59:11.561", "level": "INFO", "module": "agents.optimizador", "function": "start", "line": 123, "message": "🚀 Agente 'optimizador' arrancado"}
+{"time": "2026-10-19 15:59:11.561", "level": "WARNING", "module": "agents.buscador", "function": "_setup_impl", "line": 58, "message": "No hay embeddings en disco. Buscando alternativa..."}
+{"time": "2026-10-19 15:59:11.561", "level": "DEBUG", "module": "agents.narrador", "function": "_loop", "line": 190, "message": "Agente 'narrador' entrando en loop"}
+{"time": "2026-10-19 15:59:11.561", "level": "WARNING", "module": "agents.buscador", "function": "_setup_impl", "line": 78, "message": "Generando datos sinteticos de arranque..."}
+{"time": "2026-10-19 15:59:11.561", "level": "INFO", "module": "agents.narrador", "function": "start", "line": 123, "message": "🚀 Agente 'narrador' arrancado"}
+{"time": "2026-10-19 15:59:11.585", "level": "INFO", "module": "eventide.core.embedding", "function": "__init__", "line": 98, "message": "Cargando modelo de embeddings: paraphrase-multilingual-mpnet-base-v2"}
+{"time": "2026-10-19 15:59:11.586", "level": "INFO", "module": "eventide.cli", "function": "_cmd_serve", "line": 45, "message": "Esperando setup() del buscador (carga del modelo)..."}
+{"time": "2026-10-19 15:59:18.657", "level": "INFO", "module": "eventide.core.embedding", "function": "__init__", "line": 114, "message": "EventEmbedder inicializado correctamente"}
+{"time": "2026-10-19 15:59:18.657", "level": "INFO", "module": "eventide.core.embedding", "function": "generate_embeddings", "line": 207, "message": "Generando embeddings para 200 eventos..."}
+{"time": "2026-10-19 15:59:18.769", "level": "INFO", "module": "eventide.cli", "function": "_cmd_serve", "line": 56, "message": "✅ Agentes listos: ['buscador', 'narrador', 'optimizador'] · 200 eventos indexados"}
+{"time": "2026-10-19 15:59:18.769", "level": "INFO", "module": "eventide.cli", "function": "_cmd_serve", "line": 60, "message": "🌐 Escuchando en http://0.0.0.0:8502"}
+{"time": "2026-10-19 15:59:18.769", "level": "INFO", "module": "eventide.cli", "function": "_cmd_serve", "line": 61, "message": "   Prueba: http://localhost:8502/health"}
+{"time": "2026-10-19 15:59:18.769", "level": "INFO", "module": "eventide.cli", "function": "_cmd_serve", "line": 62, "message": ""}
+{"time": "2026-10-19 15:59:18.769", "level": "INFO", "module": "eventide.api.server", "function": "crear_app", "line": 46, "message": "App Flask creada con rutas registradas"}
+{"time": "2026-10-19 15:59:18.787", "level": "INFO", "module": "eventide.api.server", "function": "run", "line": 53, "message": "🚀 Arrancando API en http://0.0.0.0:8502"}
+{"time": "2026-10-19 15:59:20.283", "level": "WARNING", "module": "agents.narrador", "function": "setup", "line": 212, "message": "Gemini no responde en 8s. Activando modo fallback."}
+{"time": "2026-10-19 15:59:38.348", "level": "INFO", "module": "eventide.core.embedding", "function": "generate_embeddings", "line": 220, "message": "Embeddings generados. Shape: (200, 768)"}
+{"time": "2026-10-19 15:59:38.348", "level": "INFO", "module": "eventide.core.embedding", "function": "build_index", "line": 239, "message": "Construyendo índice FAISS (flat, dim=768)..."}
+{"time": "2026-10-19 15:59:38.353", "level": "INFO", "module": "eventide.core.embedding", "function": "build_index", "line": 254, "message": "Índice construido. Total vectores: 200"}
+{"time": "2026-10-19 15:59:38.353", "level": "INFO", "module": "eventide.core.embedding", "function": "build_shards", "line": 267, "message": "Construyendo shards por ciudad..."}
+{"time": "2026-10-19 15:59:38.355", "level": "INFO", "module": "eventide.core.embedding", "function": "build_shards", "line": 285, "message": "Shards construidos: 25 ciudades, tamaños: [8, 7, 10, 5, 7, 4, 8, 14, 10, 11, 6, 9, 14, 6, 9, 10, 8, 11, 5, 7, 7, 8, 6, 4, 6]"}
+{"time": "2026-10-19 15:59:38.355", "level": "INFO", "module": "agents.buscador", "function": "_setup_impl", "line": 87, "message": "Embedder listo con 200 eventos sinteticos"}
+{"time": "2026-10-19 15:59:38.479", "level": "INFO", "module": "agents.buscador", "function": "_construir_corrector", "line": 106, "message": "Corrector ortografico listo. Vocabulario: 116 palabras"}
+{"time": "2026-10-19 16:00:17.829", "level": "INFO", "module": "agents.buscador", "function": "_handle_buscar", "line": 160, "message": "Query corregida: 'conciertos' -> 'concierto'"}
+{"time": "2026-10-19 16:00:17.829", "level": "INFO", "module": "agents.buscador", "function": "_handle_buscar", "line": 167, "message": "Buscando: query='concierto' ciudad=None categoria=None k=50"}
+{"time": "2026-10-19 16:00:17.912", "level": "INFO", "module": "agents.buscador", "function": "_handle_buscar", "line": 224, "message": "Encontrados 50 resultados"}
+{"time": "2026-10-19 16:00:17.912", "level": "DEBUG", "module": "agents.buscador", "function": "enviar", "line": 176, "message": "→ resp_be588d788701: resultados_busqueda"}
+{"time": "2026-10-19 16:00:19.959", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=18, seed=42"}
+{"time": "2026-10-19 16:00:20.481", "level": "INFO", "module": "agents.optimizador", "function": "_handle_optimizar", "line": 120, "message": "Agenda generada: algoritmo=sa, score=-35.63, tiempo=526.9ms"}
+{"time": "2026-10-19 16:00:20.481", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ resp_750849edef13: agenda_optimizada"}
+{"time": "2026-10-19 16:00:23.510", "level": "INFO", "module": "agents.buscador", "function": "_handle_buscar", "line": 160, "message": "Query corregida: 'conciertos' -> 'concierto'"}
+{"time": "2026-10-19 16:00:23.510", "level": "INFO", "module": "agents.buscador", "function": "_handle_buscar", "line": 167, "message": "Buscando: query='concierto' ciudad=None categoria=None k=50"}
+{"time": "2026-10-19 16:00:23.572", "level": "INFO", "module": "agents.buscador", "function": "_handle_buscar", "line": 224, "message": "Encontrados 50 resultados"}
+{"time": "2026-10-19 16:00:23.572", "level": "DEBUG", "module": "agents.buscador", "function": "enviar", "line": 176, "message": "→ resp_5abaaf5bf371: resultados_busqueda"}
+{"time": "2026-10-19 16:00:25.651", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=18, seed=42"}
+{"time": "2026-10-19 16:00:26.116", "level": "INFO", "module": "agents.optimizador", "function": "_handle_optimizar", "line": 120, "message": "Agenda generada: algoritmo=sa, score=-35.63, tiempo=476.2ms"}
+{"time": "2026-10-19 16:00:26.116", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ resp_fdd55300996f: agenda_optimizada"}
+{"time": "2026-10-19 16:00:28.223", "level": "INFO", "module": "agents.narrador", "function": "_handle_narrar", "line": 308, "message": "Narracion generada: fuente=fallback, tiempo=0.2ms, chars=811"}
+{"time": "2026-10-19 16:00:28.223", "level": "DEBUG", "module": "agents.narrador", "function": "enviar", "line": 176, "message": "→ resp_6e38577a1670: narracion_lista"}
+{"time": "2026-10-19 16:00:41.259", "level": "INFO", "module": "agents.buscador", "function": "_handle_buscar", "line": 160, "message": "Query corregida: 'conciertos' -> 'concierto'"}
+{"time": "2026-10-19 16:00:41.259", "level": "INFO", "module": "agents.buscador", "function": "_handle_buscar", "line": 167, "message": "Buscando: query='concierto' ciudad=None categoria=None k=50"}
+{"time": "2026-10-19 16:00:41.329", "level": "INFO", "module": "agents.buscador", "function": "_handle_buscar", "line": 224, "message": "Encontrados 50 resultados"}
+{"time": "2026-10-19 16:00:41.336", "level": "DEBUG", "module": "agents.buscador", "function": "enviar", "line": 176, "message": "→ resp_85c6b2c6d40a: resultados_busqueda"}
+{"time": "2026-10-19 16:00:43.396", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=8, seed=42"}
+{"time": "2026-10-19 16:00:43.925", "level": "INFO", "module": "agents.optimizador", "function": "_handle_optimizar", "line": 120, "message": "Agenda generada: algoritmo=sa, score=-279.01, tiempo=537.2ms"}
+{"time": "2026-10-19 16:00:43.925", "level": "DEBUG", "module": "agents.optimizador", "function": "enviar", "line": 176, "message": "→ resp_c0bfd9c81f52: agenda_optimizada"}
+{"time": "2026-10-19 16:00:45.990", "level": "INFO", "module": "agents.narrador", "function": "_handle_narrar", "line": 308, "message": "Narracion generada: fuente=fallback, tiempo=0.1ms, chars=800"}
+{"time": "2026-10-19 16:00:45.990", "level": "DEBUG", "module": "agents.narrador", "function": "enviar", "line": 176, "message": "→ resp_21e98d2fbb78: narracion_lista"}
+{"time": "2026-10-19 16:02:35.087", "level": "INFO", "module": "eventide.cli", "function": "_shutdown", "line": 65, "message": "Deteniendo agentes..."}
+{"time": "2026-10-19 16:02:35.599", "level": "DEBUG", "module": "agents.buscador", "function": "_loop", "line": 223, "message": "Agente 'buscador' saliendo del loop"}
+{"time": "2026-10-19 16:02:35.599", "level": "INFO", "module": "agents.buscador", "function": "stop", "line": 134, "message": "🛑 Agente 'buscador' detenido"}
+{"time": "2026-10-19 16:02:36.114", "level": "DEBUG", "module": "agents.optimizador", "function": "_loop", "line": 223, "message": "Agente 'optimizador' saliendo del loop"}
+{"time": "2026-10-19 16:02:36.114", "level": "INFO", "module": "agents.optimizador", "function": "stop", "line": 134, "message": "🛑 Agente 'optimizador' detenido"}
+{"time": "2026-10-19 16:02:36.620", "level": "DEBUG", "module": "agents.narrador", "function": "_loop", "line": 223, "message": "Agente 'narrador' saliendo del loop"}
+{"time": "2026-10-19 16:02:36.620", "level": "INFO", "module": "agents.narrador", "function": "stop", "line": 134, "message": "🛑 Agente 'narrador' detenido"}
+{"time": "2026-10-19 16:36:17.219", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:17.399", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:17.569", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:17.753", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:17.923", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:18.083", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:18.254", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:18.423", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:18.619", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:18.894", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:19.124", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:19.306", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:19.487", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:19.675", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:19.890", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:20.072", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:20.242", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:20.442", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:20.626", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:20.789", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:20.958", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:21.126", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:21.330", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:21.543", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:21.719", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:21.908", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:22.166", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:22.339", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:22.495", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:22.680", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:22.860", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:23.027", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:23.196", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:23.372", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:23.544", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:23.713", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:23.889", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:24.060", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:24.229", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:24.399", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:24.583", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:24.746", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:24.932", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:25.116", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:25.285", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:25.463", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:25.648", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:25.817", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:25.986", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:26.164", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=random, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:26.364", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:26.529", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:26.681", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:26.819", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:26.945", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:27.098", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:27.245", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:27.377", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:27.520", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:27.661", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:27.805", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:27.937", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:28.077", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:28.222", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:28.361", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:28.507", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:28.662", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:28.793", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:28.946", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:29.093", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:29.225", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:29.372", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:29.510", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:29.647", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:29.853", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:30.003", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:30.150", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:30.300", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:30.449", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:30.628", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:30.765", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:30.897", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:31.045", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:31.192", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:31.314", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:31.463", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:31.599", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:31.734", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:31.868", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:32.015", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:32.148", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:32.281", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:32.423", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:32.550", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:32.683", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:32.833", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:32.969", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:33.102", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:33.253", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:33.385", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=hc, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:33.519", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:33.903", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:34.314", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:34.756", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:35.141", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:35.539", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:35.924", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:36.311", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:36.705", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:37.113", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:37.554", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:37.947", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:38.364", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:38.759", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:39.143", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:39.543", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:39.977", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:40.378", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:40.814", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:41.301", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:41.712", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:42.119", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:42.513", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:42.961", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:43.342", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:43.743", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:44.145", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:44.549", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:44.957", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:45.365", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:45.762", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:46.159", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:46.574", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:46.984", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:47.372", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:47.767", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:48.162", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:48.564", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:48.952", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:49.346", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:49.739", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:50.142", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:50.534", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:50.949", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:51.338", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=46"}
+{"time": "2026-10-19 16:36:51.738", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=42"}
+{"time": "2026-10-19 16:36:52.141", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=43"}
+{"time": "2026-10-19 16:36:52.534", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=44"}
+{"time": "2026-10-19 16:36:52.940", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=45"}
+{"time": "2026-10-19 16:36:53.334", "level": "INFO", "module": "eventide.core.optimizer", "function": "optimizar_agenda", "line": 513, "message": "Optimizando agenda: algoritmo=sa, n=5, pool=300, seed=46"}

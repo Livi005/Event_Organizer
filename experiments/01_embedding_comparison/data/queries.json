@@ -1,0 +1,26 @@
+{
+  "estandar": [
+    {"query": "conciertos de musica en vivo", "esperados": ["Concierto", "Gira", "Festival de musica"]},
+    {"query": "exposiciones de arte", "esperados": ["Exposicion", "Muestra", "Instalacion"]},
+    {"query": "partidos de futbol", "esperados": ["Partido", "Final", "Torneo"]},
+    {"query": "conferencias de tecnologia", "esperados": ["Conferencia", "Summit", "Taller"]},
+    {"query": "eventos gastronomicos", "esperados": ["Feria gastronomica", "Cata", "Festival culinario"]},
+    {"query": "obras de teatro", "esperados": ["Obra", "Estreno teatral", "Comedia"]},
+    {"query": "festivales de musica", "esperados": ["Festival", "Fiesta mayor", "Verbena"]},
+    {"query": "eventos de bienestar y yoga", "esperados": ["Retiro", "Yoga", "Meditacion"]},
+    {"query": "encuentros literarios", "esperados": ["Recital", "Lectura", "Encuentro literario"]},
+    {"query": "eventos deportivos", "esperados": ["Partido", "Final", "Torneo"]}
+  ],
+  "naturales": [
+    {"query": "quiero hacer algo divertido", "esperados": ["Festival", "Concierto", "Verbena"]},
+    {"query": "busco un plan tranquilo", "esperados": ["Exposicion", "Recital", "Yoga"]},
+    {"query": "me apetece escuchar musica", "esperados": ["Concierto", "Festival", "Gira"]},
+    {"query": "quiero aprender algo nuevo", "esperados": ["Conferencia", "Taller", "Summit"]},
+    {"query": "quiero ir a bailar", "esperados": ["Concierto", "Festival", "Verbena"]},
+    {"query": "algo para el fin de semana", "esperados": ["Festival", "Concierto", "Fiesta mayor"]},
+    {"query": "algo cultural para ver", "esperados": ["Exposicion", "Obra", "Muestra"]},
+    {"query": "quiero comer algo rico", "esperados": ["Feria gastronomica", "Cata", "Festival culinario"]},
+    {"query": "algo para hacer ejercicio", "esperados": ["Partido", "Yoga", "Retiro"]},
+    {"query": "quiero ver un espectaculo", "esperados": ["Obra", "Concierto", "Instalacion"]}
+  ]
+}
